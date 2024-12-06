@@ -1,0 +1,69 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+    "next/core-web-vitals"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "jsx-a11y"
+  ],
+  "rules": {
+    // Desativando regra de número mínimo de itens em arrays
+    "array-element-newline": "off",
+    "array-bracket-newline": "off",
+    // Ajustes de boas práticas
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "react/react-in-jsx-scope": "off", // Desnecessário no Next.js
+    "react/prop-types": "off", // Não é necessário ao usar TypeScript
+    "jsx-a11y/anchor-is-valid": "off", // Tratado pelo Next.js
+    "@typescript-eslint/explicit-function-return-type": "off", // Para evitar excesso de declarações
+    // Formatação
+    "semi": [
+      "error",
+      "always"
+    ], // Sempre usar ponto e vírgula
+    "quotes": [
+      "error",
+      "double"
+    ], // Usar aspas duplas
+    "indent": [
+      "error",
+      2
+    ], // Indentação de 2 espaços
+    "linebreak-style": [
+      "error",
+      "unix"
+    ], // Para consistência em ambientes Unix
+    // Regras de hooks do React
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
