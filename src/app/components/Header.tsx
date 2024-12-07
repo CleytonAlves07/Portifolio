@@ -57,11 +57,11 @@ const Header = () => (
           >
             <code className="typing-effect">
               const developer = &#123;<br />
-              &nbsp;&nbsp; nome: "Cleyton Alves",<br />
-              &nbsp;&nbsp; cargo: "Desenvolvedor Full Stack",<br />
-              &nbsp;&nbsp; especialidades: ["JavaScript", "TypeScript", "React"],<br />
-              &nbsp;&nbsp; outras_stack: &#91;"PHP", "Laravel"&#93;,<br />
-              &nbsp;&nbsp; filosofia: "A melhor maneira de prever o futuro é inventá-lo - Alan Kay"<br />
+              &nbsp;&nbsp; nome: `Cleyton Alves`,<br />
+              &nbsp;&nbsp; cargo: `Desenvolvedor Full Stack`,<br />
+              &nbsp;&nbsp; especialidades: [`JavaScript`, `TypeScript`, `React`],<br />
+              &nbsp;&nbsp; outras_stack: &#91;`PHP`, `Laravel`&#93;,<br />
+              &nbsp;&nbsp; filosofia: `A melhor maneira de prever o futuro é inventá-lo - Alan Kay`<br />
               &#125;
             </code>
           </p>

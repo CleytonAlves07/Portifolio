@@ -1,6 +1,6 @@
 import React from "react";
 import { BiCodeAlt } from "react-icons/bi";
-import { FaCode, FaTools, FaDatabase, FaPalette } from "react-icons/fa";
+import { FaTools, FaDatabase, FaPalette } from "react-icons/fa";
 
 // Define a interface do Service
 interface Service {
