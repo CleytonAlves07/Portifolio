@@ -56,7 +56,7 @@ const IconCarousel = () => {
   ];
 
   return (
-    <section className="carousel-section bg-gradient-to-r from-cyan-50 to-white py-16 px-6 transition-all duration-1000">
+    <section className="carousel-section bg-gradient-to-r from-cyan-50 to-white transition-all duration-1000">
       <div className="border-t-2 border-cyan-500 mb-8"></div>
       <Swiper
         modules={[Autoplay]}
@@ -81,7 +81,7 @@ const IconCarousel = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="border-b-4 border-cyan-500 mt-8"></div>
+      <div className="border-b-2 border-cyan-500 mt-8"></div>
     </section>
   );
 };

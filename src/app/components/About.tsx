@@ -22,7 +22,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="relative py-20 bg-gradient-to-r from-teal-50 via-white to-teal-50"
+      className="relative py-20 bg-slate-100"
     >
       {/* Divisão com borda superior curvada */}
       <div className="absolute inset-x-0 top-0 -z-10">

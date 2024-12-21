@@ -25,7 +25,7 @@ const colorMap: { [key: string]: string } = {
 };
 
 const Projects = ({ projects }: { projects: Project[] }) => (
-  <section id="projects" className="bg-gray-100 py-12 w-screen">
+  <section id="projects" className="bg-gray-100 py-20 w-screen">
     <h2 className="text-center text-4xl font-bold mb-10 text-gray-800">Projetos</h2>
     <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 px-4">
       {projects.map((project) => (
