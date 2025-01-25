@@ -3,11 +3,11 @@
 import Link from "next/link";
 import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
-import { Montserrat, Roboto } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
 // Importando as fontes do Google Fonts
 const montserrat = Montserrat({ subsets: ["latin"], weight: ["400", "700"] });
-const roboto = Roboto({ subsets: ["latin"], weight: ["400"] });
+// const roboto = Roboto({ subsets: ["latin"], weight: ["400"] });
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);

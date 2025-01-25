@@ -6,7 +6,7 @@ const Header = () => (
     <div
       className="absolute inset-0 bg-cover bg-center"
       style={{
-        backgroundImage: 'url("/images/bannertop.png")',
+        backgroundImage: "url('/images/bannertop.png')",
       }}
     />
     <div className="relative w-full h-full">
