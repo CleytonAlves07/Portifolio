@@ -2,7 +2,7 @@ import { FaDownload, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import Image from "next/image";
 
 const Header = () => (
-  <header className="relative w-full h-auto mt-10">
+  <header className="relative w-full h-auto">
     <div
       className="absolute inset-0 bg-cover bg-center"
       style={{
@@ -58,7 +58,7 @@ const Header = () => (
         {/* Coluna do Código e Descrição */}
         <div className="w-full md:w-1/2 text-center md:text-left space-y-6">
           {/* Const Developer com Descrição na Fonte VT323 */}
-          <p className="text-2xl md:text-xl text-gray-300 p-4">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 p-4">
             <code className="typing-effect">
               const developer = &#123;<br />
               &nbsp;&nbsp; nome: `Cleyton Alves`,<br />
