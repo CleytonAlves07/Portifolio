@@ -25,6 +25,11 @@ const vt323 = VT323({
 export const metadata = {
   title: "Cleyton Alves | Portfólio",
   description: "Desenvolvedor Web com foco em JavaScript, TypeScript, React, e muito mais!",
+  icons: {
+    icon: "/images/favicon.ico", // Ícone padrão
+    shortcut: "/images/favicon.ico", // Atalho para navegadores antigos
+    apple: "/images/favicon.ico", // Ícone para iOS
+  },
 };
 
 export default function RootLayout({
